@@ -197,7 +197,7 @@ void loop() {
   
   // Button loop (62.5Hz)
   static uint32_t tnow = 0;
-  if (millis() - tnow > 16) {
+  if (millis() - tnow > 6) {
 
     // Led ON for debug
     led(LED_ON);
@@ -390,4 +390,3 @@ void processSerial() {
     }
   }
 }
-

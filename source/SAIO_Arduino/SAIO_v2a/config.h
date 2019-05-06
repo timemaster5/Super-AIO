@@ -25,7 +25,7 @@
 
 // Board versions
 //#define HARDWARE HARDWARE_05E1
-//#define HARDWARE HARDWARE_06C
+#define HARDWARE HARDWARE_06C
 
 // Options
 //#define DEBUG //Print out a load of debug messages. YOU NEED THE SERIAL MONITOR ALWAYS OPEN OTHERWISE THE BUFFER FILLS UP
@@ -93,4 +93,3 @@
 
 // Button freeze settings
 #define FREEZE_DURATION 1000
-
